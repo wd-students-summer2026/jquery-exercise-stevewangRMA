@@ -1,20 +1,20 @@
 {
-  "name": "Foo Barstein",
-  "nyu_net_id": "fb1258",
-  "site_url": "http://i6.cims.nyu.edu/~fb1258",
+  "name": "Steve Wang",
+  "nyu_net_id": "zw4841",
+  "site_url": "https://stevewangrma.github.io/Steve-web/"
   "jquery_settings": {
     "content_change": {
-      "trigger_element_selector": "input#button1",
+      "trigger_element_selector": ".cocktail-name",
       "trigger_event": "mouseover",
-      "target_element_selector": "p#paragraph1"
+      "target_element_selector": "#cocktail-desc"
     },
     "image_swap": {
-      "trigger_element_selector": "img#image1"
+      "trigger_element_selector": "#swap-img"
     },
     "animation": {
-      "trigger_element_selector": "input#button2",
+      "trigger_element_selector": "#shake-btn",
       "trigger_event": "click",
-      "target_element_selector": "p#paragraph2"
+      "target_element_selector": "#garnish"
     }
   }
 }
